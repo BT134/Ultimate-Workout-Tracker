@@ -32,7 +32,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 ## Usage
 
-> This application can be viewed [HERE]().
+> This application can be viewed [HERE](https://secret-wildwood-03803.herokuapp.com/).
 
 >When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
 
