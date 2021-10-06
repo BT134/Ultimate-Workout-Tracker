@@ -19,7 +19,9 @@
 
 ## User Story
 ```
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+As a user, I want to be able to view create and track daily workouts. 
+I want to be able to log multiple exercises in a workout on a given day. 
+I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 ```
 
 ## Installation
@@ -45,10 +47,10 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 Workout Summary/ Last Workout
 ><img src="assets\images\screenshot.JPG" alt= "Screenshot of landing page">
 
->Add A New Workout
+Add A New Workout
 ><img src="assets\images\newworkout.JPG" alt= "Screenshot of adding a new workout">
 
->Stats Dashboard
+Stats Dashboard
 ><img src="assets\images\statsdashboard.JPG" alt= "Screenshot of Stats Dashboard">
 
 ## Tests
