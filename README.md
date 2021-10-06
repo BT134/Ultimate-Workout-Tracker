@@ -3,12 +3,13 @@
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
 
-> 
+> An App to track workouts, the fitness tracker allows users to create a workout where they enter various exercises associated to the workout. The data can then be analyzed with an included stats page that provides insights into the details of all their workouts. Built with MongoDB with help of MongoDb Atlas connected a database and deployed Heroku web page.
 
  ## Table of Contents 
   - [Description](#description)
   - [User Story](#user-story)
   - [Installation](#installation)
+  - [Usage](#usage)
   - [Visual Demo](#visual-demo)
   - [Tests](#tests)
   - [Built With](#built-with)
@@ -21,17 +22,34 @@
 As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 ```
 
-## Installation/Usage
+## Installation
 
-> The user should clone the repository from GitHub. This application requires Node.js, Express.js, Sequelize and Mysql2. To connect to the MYSQL database run `mysql -u root -p` and enter your password from .env file. Then source the schema.sql. Then seed the data by running `npm run seed`. To start application run `npm install` then once depencies have installed run `npm start`.
+1. Clone this repository to your local machine.
+
+2. Run `npm install` to install dependencies required for this project.
+
+3. Run `npm start` to start the application. 
+
+## Usage
 
 > This application can be viewed [HERE]().
 
+>When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+
+>The user should be able to: Add exercises to the most recent workout plan.
+
+>The user can view the total duration of each workout from the past seven workouts on the Dashboard page.
+
 ## Visual Demo
 
-><img src="" alt= "">
+Workout Summary/ Last Workout
+><img src="assets\images\screenshot.JPG" alt= "Screenshot of landing page">
 
-> 
+>Add A New Workout
+><img src="assets\images\newworkout.JPG" alt= "Screenshot of adding a new workout">
+
+>Stats Dashboard
+><img src="assets\images\statsdashboard.JPG" alt= "Screenshot of Stats Dashboard">
 
 ## Tests
 
